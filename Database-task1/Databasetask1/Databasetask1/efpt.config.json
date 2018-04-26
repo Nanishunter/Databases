@@ -1,0 +1,1 @@
+﻿{"ContextClassName":"LocaldbContext","DefaultDacpacSchema":null,"IdReplace":false,"IncludeConnectionString":true,"OutputPath":"","ProjectRootNamespace":"Databasetask1","SelectedToBeGenerated":0,"Tables":["dbo.Person","dbo.Phone","dbo.sysdiagrams"],"UseDatabaseNames":false,"UseFluentApiOnly":false,"UseHandleBars":false,"UseInflector":false}
