@@ -30,5 +30,9 @@ namespace BankDB.Models
         public Customer Customer { get; set; }
         [InverseProperty("IbanNavigation")]
         public ICollection<Transaction> Transaction { get; set; }
+        public override string ToString()
+        {
+            return $"{Name}, {CustomerId}";
+        }
     }
 }

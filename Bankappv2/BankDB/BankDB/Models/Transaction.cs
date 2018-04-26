@@ -23,5 +23,9 @@ namespace BankDB.Models
         [ForeignKey("Iban")]
         [InverseProperty("Transaction")]
         public Account IbanNavigation { get; set; }
+        public override string ToString()
+        {
+            return $"{Amount}, {TimeStamp}";
+        }
     }
 }
